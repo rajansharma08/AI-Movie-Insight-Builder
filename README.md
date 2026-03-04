@@ -1,6 +1,6 @@
 # AI Movie Insight Builder
 
-Full-stack assignment project for Brew Hiring Assignment (Full-Stack Developer Internship Round 1).
+Full-stack Next.js project for movie metadata retrieval and AI-powered audience sentiment insights.
 
 ## Assignment Coverage
 
@@ -186,13 +186,13 @@ Run:
 npm test
 ```
 
-## Deployment (Mandatory)
+## Deployment
 
 Recommended target: **Vercel** for Next.js.
 
 ### Steps
 
-1. Push project to GitHub (private repository recommended for assignment).
+1. Push project to GitHub.
 2. Import repo in Vercel.
 3. Add environment variables in Vercel project settings:
    - `OMDB_API_KEY`
@@ -241,4 +241,3 @@ __tests__/
 - This code follows JavaScript/TypeScript ecosystem constraints.
 - Focus was kept on clean, maintainable implementation over over-engineered abstractions.
 - Complex fallback paths include comments for clarity.
-
