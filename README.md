@@ -185,25 +185,6 @@ Run:
 ```bash
 npm test
 ```
-
-## Deployment
-
-Recommended target: **Vercel** for Next.js.
-
-### Steps
-
-1. Push project to GitHub.
-2. Import repo in Vercel.
-3. Add environment variables in Vercel project settings:
-   - `OMDB_API_KEY`
-   - `TMDB_API_KEY`
-   - `OPENAI_API_KEY`
-   - `NEXT_PUBLIC_APP_URL` (your production URL)
-4. Deploy and verify:
-   - valid IMDb ID flow
-   - responsive UI
-   - error handling paths
-
 ## Project Structure
 
 ```text
@@ -236,7 +217,7 @@ __tests__/
   reviewFallback.test.ts
 ```
 
-## Notes for Reviewer
+## Notes
 
 - This code follows JavaScript/TypeScript ecosystem constraints.
 - Focus was kept on clean, maintainable implementation over over-engineered abstractions.
