@@ -16,7 +16,7 @@ This project implements the required flow:
 
 Add deployed URL here after deployment:
 
-- `https://your-app-url.vercel.app`
+- `https://ai-movie-insight-builder-byrajan.vercel.app/`
 
 ## Setup Instructions
 
